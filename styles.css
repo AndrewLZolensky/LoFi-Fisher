@@ -10,53 +10,47 @@ body {
 
 body,
 .snake {
-    background-color: #414141;
+    background-color: #000000;
 }
 
 #game-board {
     border-radius: 100px;
     display: grid;
-    grid-template-columns: repeat(20, 20px);
-    grid-template-rows: repeat(20, 20px);
+    grid-template-columns: repeat(50, 20px);
+    grid-template-rows: repeat(30, 20px);
 }
 
 .game-border-1 {
-    border: #726b60 solid 10px;
+    border: #ffffff solid 10px;
     border-radius: 30px;
     box-shadow: inset 0 0 0 10px #363630;
 }
 
 .game-border-2 {
-    border: #adad90 solid 10px;
+    border: #dfdfdf solid 10px;
     border-radius:25px;
     box-shadow: inset 0 0 0 10px #403c39;
 }
 
 .game-border-3 {
-    border: #aea296 solid 10px;
+    border: #b6b6b6 solid 10px;
     border-radius:20px;
     box-shadow: inset 0 0 0 10px #292626;
 }
 
 .instruction-text {
     position: absolute;
-    top: 65%;
-    color: rgb(4, 5, 5);
-    width: 300px;
+    top: 75%;
+    color: rgb(255, 255, 255);
+    width: 700px;
     text-align: center;
     padding: 30px;
     margin: 0;
-}
-
-.score, .highScore {
-    color: aliceblue;
-    font-size: 40px;
-    font-weight: bolder;
-    margin: 10px 0;
+    font-size: 55px;
 }
 
 .game-border-3, #logo{
-    background-color: antiquewhite;
+    background-color: rgb(10, 0, 96);
 }
 
 .snake {
